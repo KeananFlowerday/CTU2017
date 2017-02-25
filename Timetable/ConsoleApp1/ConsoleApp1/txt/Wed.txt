@@ -1,0 +1,11 @@
+﻿Time,Class,Room
+---------- ,---------------- ,------
+8:00 - 9:00,Programming 1,4
+9:00 - 10:00,Programming 1,4
+10:00 - 11:00,Programming 1,4
+11:00 - 12:00,Soft Skills,4
+12:00 - 13:00,Free,None
+13:00 - 14:00,Free,None
+14:00 - 15:00,Free,None
+15:00 - 16:00,Free,None
+16:00 - 17:00,Free,None
