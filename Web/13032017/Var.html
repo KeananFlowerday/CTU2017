@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+  <h1>JS Variables</h1>
+  <p>Some Shit goes here.</p>
+  <p id="demo"></p>
+  <p id="Ans"></p>
+  <script>
+    var carName = "Volvo pls";
+    var total = null;
+    document.getElementById("demo").innerHTML = carName;
+    for (var i = 1; i < 1000; i++) {
+      if (i % 3 == 0)
+      {
+        total = total + i;
+        console.log(total);
+      }
+      else if (i % 5 == 0)
+      {
+        total = total + i;
+        console.log(total);
+      }
+    }
+    document.getElementById("Ans").innerHTML = total;
+
+  </script>
+
+</body>
+
+</html>
