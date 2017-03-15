@@ -1,0 +1,50 @@
+Abstraction
+Abstraction is just opposite of Encapsulation. Abstraction is mechanism to show only relevant data to the user. Consider the same mobile example again. Whenever you buy a mobile phone, you see their different types of functionalities as camera, mp3 player, calling function, recording function, multimedia etc. It is abstraction, because you are seeing only relevant information instead of their internal engineering.
+The word abstract means a concept or an idea not associated with any specific instance.
+
+In programming we apply the same meaning of abstraction by making classes not associated with any specific instance.
+
+The abstraction is done when we need to only inherit from a certain class, but not need to instantiate objects of that class. In such case the base
+class can be regarded as "Incomplete". Such classes are known as an "Abstract Base Class".
+
+There are some important points about Abstract Base Class :
+
+-An Abstract Base class can not be instantiated; it means the object of that class can not be created.
+
+-Class having abstract keyword and having, abstract keyword with some of its methods (not all) is known as an Abstract Base Class.
+
+-Class having Abstract keyword and having abstract keyword with all of its methods is known as pure Abstract Base Class.
+
+-The method of abstract class that has no implementation is known as "operation". It can be defined as abstract void method ();
+
+-An abstract class holds the methods but the actual implementation of those methods is made in derived class.
+
+Lets have a look of this code!
+
+    abstract class animal
+    {
+        public abstract void eat();
+        public void sound()
+        {
+            Console.WriteLine("dog can sound");
+        }
+    }
+This is the Abstract Base Class, if I make both of its methods abstract then this class would become a pure Abstract Base Class.
+
+Now we derive a class of 'dog' from the class animal.
+
+    abstract class animal
+    {
+        public abstract void eat();
+        public void sound()
+        {
+            Console.WriteLine("dog can sound");
+        }
+    }
+    class dog : animal
+    {
+        public override void eat() { Console.WriteLine("dog can eat"); }
+    }
+
+Encapsulation
+Encapsulation is the process of hiding irrelevant data from the user. To understand encapsulation, consider an example of mobile phone. Whenever you buy a mobile, you don’t see how circuit board works. You are also not interested to know how digital signal converts into analog signal and vice versa. These are the irrelevant information for the mobile user, that’s why it is encapsulated inside a cabinet.

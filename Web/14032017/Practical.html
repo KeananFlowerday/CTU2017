@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Practical</title>
+</head>
+<body>
+    <form  id="form1">
+    <select name="cars" id="sign">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">x</option>
+      <option value="/">/</option>
+    </select><br/>
+    <input type="text" id="num1_txtbox"  required /><br />
+    <input type="text" id="num2_txtbox" required /><br />
+
+  <input type="button" onclick="foo()" value="Submit Query"/>
+<p id="outputp"></p>
+  </form>
+  <script>
+    function foo()
+    {
+      var choice = document.getElementById("sign").value;
+      var num1 = Number(document.getElementById("num1_txtbox").value);
+      var num2 = Number(document.getElementById("num2_txtbox").value);
+      console.log(num1 + " " + choice + " " + num2 + " =");
+      //  ans = num1 num2
+      var ans = null;
+      switch(choice) {
+    case '+':
+        ans = num1+num2
+        //code block
+        break;
+    case '-':
+        ans = num1-num2;
+        //code block
+        break;
+    case '/':
+        ans = num1/num2;
+        //code block
+        break;
+    case '*':
+       ans = num1*num2;
+        //code block
+        break;
+    default:
+        ans = "Invalid Operator!";
+                  }
+                  console.log(ans);
+document.getElementById("outputp").innerHTML = ans
+    }
+
+
+
+
+  </script>
+</body>
+</html>

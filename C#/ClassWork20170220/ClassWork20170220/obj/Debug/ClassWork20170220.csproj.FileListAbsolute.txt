@@ -1,0 +1,6 @@
+C:\Users\Keanan\Documents\CTU\C#\ClassWork20170220\ClassWork20170220\bin\Debug\ClassWork20170220.exe.config
+C:\Users\Keanan\Documents\CTU\C#\ClassWork20170220\ClassWork20170220\bin\Debug\ClassWork20170220.exe
+C:\Users\Keanan\Documents\CTU\C#\ClassWork20170220\ClassWork20170220\bin\Debug\ClassWork20170220.pdb
+C:\Users\Keanan\Documents\CTU\C#\ClassWork20170220\ClassWork20170220\obj\Debug\ClassWork20170220.csprojResolveAssemblyReference.cache
+C:\Users\Keanan\Documents\CTU\C#\ClassWork20170220\ClassWork20170220\obj\Debug\ClassWork20170220.exe
+C:\Users\Keanan\Documents\CTU\C#\ClassWork20170220\ClassWork20170220\obj\Debug\ClassWork20170220.pdb

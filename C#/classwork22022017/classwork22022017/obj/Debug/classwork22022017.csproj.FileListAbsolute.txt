@@ -1,0 +1,5 @@
+C:\Users\Keanan\Documents\CTU\C#\classwork22022017\classwork22022017\bin\Debug\classwork22022017.exe.config
+C:\Users\Keanan\Documents\CTU\C#\classwork22022017\classwork22022017\bin\Debug\classwork22022017.exe
+C:\Users\Keanan\Documents\CTU\C#\classwork22022017\classwork22022017\bin\Debug\classwork22022017.pdb
+C:\Users\Keanan\Documents\CTU\C#\classwork22022017\classwork22022017\obj\Debug\classwork22022017.exe
+C:\Users\Keanan\Documents\CTU\C#\classwork22022017\classwork22022017\obj\Debug\classwork22022017.pdb

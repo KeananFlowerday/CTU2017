@@ -1,0 +1,6 @@
+C:\Users\Keanan\Documents\CTU\C#\datastructures\datastructures\bin\Debug\datastructures.exe.config
+C:\Users\Keanan\Documents\CTU\C#\datastructures\datastructures\bin\Debug\datastructures.exe
+C:\Users\Keanan\Documents\CTU\C#\datastructures\datastructures\bin\Debug\datastructures.pdb
+C:\Users\Keanan\Documents\CTU\C#\datastructures\datastructures\obj\Debug\datastructures.csprojResolveAssemblyReference.cache
+C:\Users\Keanan\Documents\CTU\C#\datastructures\datastructures\obj\Debug\datastructures.exe
+C:\Users\Keanan\Documents\CTU\C#\datastructures\datastructures\obj\Debug\datastructures.pdb

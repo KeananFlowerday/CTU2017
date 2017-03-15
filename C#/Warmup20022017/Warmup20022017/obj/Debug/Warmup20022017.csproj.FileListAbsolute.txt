@@ -1,0 +1,6 @@
+C:\Users\Keanan\Documents\CTU\C#\Warmup20022017\Warmup20022017\bin\Debug\Warmup20022017.exe.config
+C:\Users\Keanan\Documents\CTU\C#\Warmup20022017\Warmup20022017\bin\Debug\Warmup20022017.exe
+C:\Users\Keanan\Documents\CTU\C#\Warmup20022017\Warmup20022017\bin\Debug\Warmup20022017.pdb
+C:\Users\Keanan\Documents\CTU\C#\Warmup20022017\Warmup20022017\obj\Debug\Warmup20022017.csprojResolveAssemblyReference.cache
+C:\Users\Keanan\Documents\CTU\C#\Warmup20022017\Warmup20022017\obj\Debug\Warmup20022017.exe
+C:\Users\Keanan\Documents\CTU\C#\Warmup20022017\Warmup20022017\obj\Debug\Warmup20022017.pdb

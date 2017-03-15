@@ -1,0 +1,6 @@
+C:\Users\Keanan\Documents\CTU\C#\Test16022017\Test16022017\bin\Debug\Test16022017.exe.config
+C:\Users\Keanan\Documents\CTU\C#\Test16022017\Test16022017\bin\Debug\Test16022017.exe
+C:\Users\Keanan\Documents\CTU\C#\Test16022017\Test16022017\bin\Debug\Test16022017.pdb
+C:\Users\Keanan\Documents\CTU\C#\Test16022017\Test16022017\obj\Debug\Test16022017.csprojResolveAssemblyReference.cache
+C:\Users\Keanan\Documents\CTU\C#\Test16022017\Test16022017\obj\Debug\Test16022017.exe
+C:\Users\Keanan\Documents\CTU\C#\Test16022017\Test16022017\obj\Debug\Test16022017.pdb
