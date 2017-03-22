@@ -1,0 +1,6 @@
+C:\Users\Keanan\Documents\CTU\C#\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.csprojResolveAssemblyReference.cache
+C:\Users\Keanan\Documents\CTU\C#\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+C:\Users\Keanan\Documents\CTU\C#\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+C:\Users\Keanan\Documents\CTU\C#\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+C:\Users\Keanan\Documents\CTU\C#\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+C:\Users\Keanan\Documents\CTU\C#\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.pdb
