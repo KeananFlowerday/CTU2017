@@ -1,0 +1,6 @@
+C:\Users\Keanan\Documents\CTU\C#\04042017\04042017\bin\Debug\04042017.exe.config
+C:\Users\Keanan\Documents\CTU\C#\04042017\04042017\bin\Debug\04042017.exe
+C:\Users\Keanan\Documents\CTU\C#\04042017\04042017\bin\Debug\04042017.pdb
+C:\Users\Keanan\Documents\CTU\C#\04042017\04042017\obj\Debug\04042017.csprojResolveAssemblyReference.cache
+C:\Users\Keanan\Documents\CTU\C#\04042017\04042017\obj\Debug\04042017.exe
+C:\Users\Keanan\Documents\CTU\C#\04042017\04042017\obj\Debug\04042017.pdb
