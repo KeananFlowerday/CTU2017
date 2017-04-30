@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Us</title>
+  <link rel="shortcut icon" href="Assets/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="Assets/img/favicon.ico" type="image/x-icon">
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <!--<script type="text/javascript" src="js/mapscript.js"> </script>-->
+  <link type="text/css" rel="stylesheet" href="Assets/CSS/external.css" />
+  <link href="Assets/CSS/font-awesome.css" rel="stylesheet" />
+ <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <!-- jQuery library -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <!-- Latest compiled JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <style>
+ .head{
+   width: 20%;
+   height: 100%;
+   opacity: 1;
+   background-color: rgba(149,220,255,0.7) ;
+   display: inline-block;
+   border: 1px solid #bdbdbd;
+ }
+ body{
+   color: white;
+ }
+ </style>
+</head>
+<body class="body1">
+  <header>
+    <nav>
+      <br><br>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="#">Contact Us</a>
+      <a href="learnhtml.html">Paint</a>
+      <!--<a href=""></a>-->
+    </nav>
+
+  </header>
+
+  <div id="formdiv">
+    <form method="post" action="mailto:someone@example.com?Subject=JabberWocky">
+      <fieldset>
+        <legend style="color: white">Enter your details</legend>
+        <input style="width: 90%" type="text" id="name" placeholder="Enter your name" required/><br/><br/>
+        <input style="width: 90%" type="text" id="phone" placeholder="Enter your phone number" required/><br/><br/>
+        <input style="width: 90%" type="email" id="mail" placeholder="Enter your email address" required/><br/><br/>
+        <textarea id="message" placeholder="Enter your message here" rows="10" cols="42" required></textarea><br/><br/>
+        <input type="button" value="Send" onclick="sendMail()"/>
+        <input type="reset" value="Reset" /><br/><br/>
+      </fieldset>
+    </form>
+  </div>
+  <script type="text/javascript">
+    function sendMail()
+    {
+      var body = document.getElementById("message").value;
+      window.location.href = "mailto:someone@example.com?Subject=JabberWocky Email&body="+body;
+    }
+  </script>
+<div id="map" style="width:60%;height:500px;"></div>
+  <script>
+    function initMap() {
+      var home = {lat: -33.938054, lng: 25.518823}; /*-33.938054, 25.518823*/
+
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 15,
+        center: home
+      });
+      var marker = new google.maps.Marker({
+        position: home,
+        icon:"http://mt.google.com/vt/icon?psize=30&font=fonts/arialuni_t.ttf&color=ff304C13&name=icons/spotlight/spotlight-waypoint-a.png&ax=43&ay=48&text=%E2%80%A2",
+        map: map
+      });
+    }
+  </script>
+  <script async
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAJhL_a6dffi8mrIZBe0KD7u5aK3be1Zo&callback=initMap">
+  </script>
+<div style="height: 50px;"></div>
+
+
+</body>
+</html>

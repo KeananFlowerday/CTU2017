@@ -1,0 +1,122 @@
+h2 {
+  font-size: 15px;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+footer {
+  margin-left: 5%;
+  padding-top: 50px;
+}
+
+pre {
+  border: none;
+  opacity: 1;
+  background-color:rgba(0, 0, 0, 0);
+  font-family: palatino-linotype;
+  font-size: 18px;
+
+}
+
+.body1 {
+  background-image: url("../img/bg.jpg");
+  background-repeat: repeat;
+  /*background-size: 100% auto;*/
+  margin-left: 15px;
+}
+
+
+.asdf{
+  position: fixed;
+}
+
+a.back-to-top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background: RGB(69, 123, 179) url("../img/up-arrow.png") no-repeat center 43%;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+#map{
+  float: left;
+
+}
+
+#formdiv {
+  float: left;
+  margin-right: 100px;
+  color: black;
+}
+
+#colsample {
+  width: 50%;
+  height: 50px;
+  opacity: 1;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.falink {
+  color: black;
+}
+
+nav{
+    margin-bottom: 50px;
+}
+
+nav>a {
+  padding: 10px;
+  background-color: rgba(149,252,235,0.7);
+  border: solid, thin, rgb(63, 26, 83);
+  padding: 10px, 10px, 10px, 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(69, 123, 179);
+}
+div>a {
+  padding: 10px;
+  background-color: rgba(149,252,235,0.7);
+  border: solid, thin, rgb(63, 26, 83);
+  padding: 10px, 10px, 10px, 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(69, 123, 179);
+}
+
+nav>a:hover{
+  background-color: rgba(69, 123, 179,0.7);
+  border: solid, thin, rgb(63, 26, 83);
+  padding: 10px, 10px, 10px, 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(149,252,235);
+}
+
+nav>a:active{
+background-color: rgba(255,0,0,0.7);
+border: solid, thin, rgb(63, 26, 83);
+padding: 10px, 10px, 10px, 10px;
+border-radius: 5px;
+font-size: 18px;
+text-decoration: none;
+color: rgb(69, 123, 179);}
+
+footer{
+  width: 80%;
+  float: right;
+}

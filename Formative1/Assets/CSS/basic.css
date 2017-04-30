@@ -1,0 +1,112 @@
+﻿body {
+  /*  background-image: url("../img/download.png");*/
+    background-color: Black;
+}
+
+.head:link, .head:visited {
+    background-color: RGBA(255, 222, 173, 0.5);
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.modal-dialog {width:600px;}
+.head:hover, .head:active {
+    background-color:brown;
+}
+.modal-body{
+  background-color: RGBA(255, 222, 173,1);
+}
+.modal-header{
+  background-color: RGBA(255, 222, 173,1);
+}
+.modal-footer{
+  background-color: RGBA(255, 222, 173,1);
+}
+.rcorners {
+    border-radius: 20px;
+    background: #73AD21;
+    padding: 20px;
+}
+
+
+h1
+{
+  color: navajowhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.diy-slideshow {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+figure {
+    position: absolute;
+    opacity: 0;
+    transition: 1s opacity;
+}
+
+
+.navclass{
+    padding-bottom:20px;
+}
+
+
+figure.show {
+    opacity: 1;
+    position: static;
+    transition: 1s opacity;
+}
+
+.next, .prev {
+    color: #fff;
+    position: absolute;
+    background: rgba(0,0,0, .6);
+    top: 50%;
+    z-index: 1;
+    font-size: 2em;
+    margin-top: -.75em;
+    opacity: .3;
+    user-select: none;
+}
+
+    .next:hover, .prev:hover {
+        cursor: pointer;
+        opacity: 1;
+    }
+
+.next {
+    right: 0;
+    padding: 10px 5px 15px 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.prev {
+    left: 0;
+    padding: 10px 10px 15px 5px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+form {
+
+    background-color: RGBA(255, 222, 173, 0.7);
+    align-content: center;
+}
+
+pre{
+    background-color: RGBA(255, 222, 173, 0.7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 82%;
+}
+
+.carousel-control.left,.carousel-control.right{
+  background-image:none;
+  margin-top:10%;
+  width:5%;
+}

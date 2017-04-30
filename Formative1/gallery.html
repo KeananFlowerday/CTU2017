@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gallery</title>
+  <link rel="shortcut icon" href="Assets/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="Assets/img/favicon.ico" type="image/x-icon">
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="Assets/CSS/external.css" />
+ <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <!-- jQuery library -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <!-- Latest compiled JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <style>
+ .head{
+   width: 20%;
+   height: 100%;
+   opacity: 1;
+   background-color: rgba(149,220,255,0.7) ;
+   display: inline-block;
+   border: 1px solid #bdbdbd;
+ }
+ body{
+   color: white;
+ }
+ </style>
+</head>
+<body class="body1">
+  <header>
+    <nav>
+      <br><br>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="#">Gallery</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="learnhtml.html">Paint</a>
+      <!--<a href=""></a>-->
+    </nav>
+  </header>
+
+
+
+  <div>
+    <!-- Page Content -->
+      <div class="container">
+
+          <div class="row">
+
+              <div class="col-lg-12">
+                  <h1 class="page-header" style="color:white"> Gallery</h1>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-4 thumb">
+                  <a title="Image 1" class="thumbnail" href="#">
+                      <img id="image-1" class="img-responsive" src="Assets\img\4041656-snowboard-wallpaper.jpg"  alt="">
+                  </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-4 thumb">
+                  <a title="Image 2" class="thumbnail" href="#">
+                      <img id="image-2" class="img-responsive"src="Assets\img\4067345-wallpaper-dog.jpg"alt="">
+                  </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-4 thumb">
+                  <a title="Image 3" class="thumbnail" href="#">
+                      <img id="image-3" class="img-responsive" src="Assets\img\4293558-computer-wallpaper.jpg" alt="">
+                  </a>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-4 thumb">
+                  <a title="Image 4" class="thumbnail" href="#">
+                      <img id="image-4" class="img-responsive" src="Assets\img\4423041-pink-wallpaper-hd.jpg" alt="">
+                  </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-4 thumb">
+                  <a title="Image 5" class="thumbnail" href="#">
+                      <img id="image-5" class="img-responsive" src="Assets\img\4727514-dandelion-wallpaper.jpg" alt="">
+                  </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-4 thumb">
+                  <a title="Image 6" class="thumbnail" href="#">
+                      <img id="image-6" class="img-responsive" src="Assets\img\5499680-ice-wallpaper.jpg" alt="">
+                  </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-4 thumb">
+                  <a title="Image 7" class="thumbnail" href="#">
+                      <img id="image-7" class="img-responsive" src="Assets\img\5633156-artistic-images.jpg" alt="">
+                  </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-4 thumb">
+                  <a title="Image 8" class="thumbnail" href="#">
+                      <img id="image-8" class="img-responsive" src="Assets\img\3886539-iron-man-hd-wallpaper.png" alt="">
+                  </a>
+              </div>
+
+          </div>
+  </div>
+
+  </div>
+  <div tabindex="-1" class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+  		<button class="close" type="button" data-dismiss="modal">×</button>
+  		<h3 class="modal-title">Image</h3>
+  	</div>
+  	<div class="modal-body">
+
+  	</div>
+  	<div class="modal-footer">
+  		<button class="btn btn-default" data-dismiss="modal">Close</button>
+  	</div>
+     </div>
+    </div>
+  </div>
+
+  <script>
+  $(document).ready(function() {
+  $('.thumbnail').click(function(){
+        $('.modal-body').empty();
+    	var title = $(this).parent('a').attr("title");
+    	$('.modal-title').html(title);
+    	$($(this).parents('div').html()).appendTo('.modal-body');
+    	$('#myModal').modal({show:true});
+  });
+  });
+  </script>
+
+<a href="#" class="back-to-top">Back to Top</a>
+
+<script type="text/javascript">
+// create the back to top button
+$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+
+var amountScrolled = 300;
+
+$(window).scroll(function() {
+	if ( $(window).scrollTop() > amountScrolled ) {
+		$('a.back-to-top').fadeIn('slow');
+	} else {
+		$('a.back-to-top').fadeOut('slow');
+	}
+});
+
+$('a.back-to-top, a.simple-back-to-top').click(function() {
+	$('html, body').animate({
+		scrollTop: 0
+	}, 700);
+	return false;
+});
+</script>
+
+</body>
+</html>
